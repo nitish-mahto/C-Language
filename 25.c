@@ -12,11 +12,11 @@ void main()
 	flushall();
 	printf("Enter Gender(m/f): ");
 	scanf("%c",&gn);			
-	if(gn=='m'&& age=21)
+	if(gn=='m'&& age>=21)
 	{
 		printf("eligible for marriage");
 	}
-    else if(gn=='f'&& age=18)
+    else if(gn=='f'&& age>=18)
 	{
 		printf("eligible for marriage");
 	}
